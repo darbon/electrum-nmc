@@ -28,6 +28,7 @@ If you don't have pip, install with:
   sudo python setup.py install
 
 
+
 To start Electrum from your web browser, see
 http://electrum.org/bitcoin_URIs.html
 
@@ -49,3 +50,6 @@ On Mac OS X:
   ARCHFLAGS="-arch i386 -arch x86_64" sudo python setup-release.py py2app --includes sip
 
   sudo hdiutil create -fs HFS+ -volname "Electrum" -srcfolder dist/Electrum.app dist/electrum-VERSION-macosx.dmg
+
+
+
