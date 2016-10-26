@@ -28,6 +28,8 @@ If you don't have pip, install with:
   sudo python setup.py install
 
 
+pyrcc4 icons.qrc -o gui/qt/icons_rc.py
+
 
 To start Electrum from your web browser, see
 http://electrum.org/bitcoin_URIs.html
