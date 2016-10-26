@@ -81,7 +81,7 @@ setup(
         'electrum_nmc_gui': 'gui',
         'electrum_nmc_plugins': 'plugins',
     },
-    scripts=['electrum'],
+    scripts=['electrum-nmc'],
     data_files=data_files,
     py_modules=[
         'electrum_nmc.account',
