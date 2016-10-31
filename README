@@ -1,4 +1,4 @@
-Electrum - lightweight Bitcoin client
+Electrum - lightweight Namecoin client
 
 Licence: GNU GPL v3
 Author: Thomas Voegtlin
@@ -11,7 +11,7 @@ Homepage: https://electrum.org/
 
 To run Electrum from this directory, just do:
 
-  ./electrum
+  ./electrum-nmc
 
 If you install Electrum on your system, you can run it from any
 directory.
@@ -19,7 +19,7 @@ directory.
 If you have pip, you can do:
 
   python setup.py sdist
-  sudo pip install --pre dist/Electrum-2.0.tar.gz
+  sudo pip install --pre dist/Electrum-nmc-2.0b2.tar.gz
 
 
 If you don't have pip, install with:
@@ -50,5 +50,6 @@ On Mac OS X:
   ARCHFLAGS="-arch i386 -arch x86_64" sudo python setup-release.py py2app --includes sip
 
   sudo hdiutil create -fs HFS+ -volname "Electrum" -srcfolder dist/Electrum.app dist/electrum-VERSION-macosx.dmg
+
 
 
